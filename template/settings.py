@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 AUTH_USER_MODEL = "users.User"
 
 INSTALLED_APPS = [
-    "app.apps.AppConfig",
+    "api.apps.ApiConfig",
     "core.apps.CoreConfig",
     "django.contrib.admin",
     "django.contrib.auth",
